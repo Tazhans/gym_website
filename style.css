@@ -1,0 +1,130 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #000;
+}
+
+#mainNavbar .navbar-brand {
+    color: #198754;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#mainNavbar .nav-item a:hover {
+    color: #198754;
+}
+
+#navLinks a {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+#mainNavbar.scrolled {
+    background-color: #198754;
+    transition: background 500ms;
+}
+#mainNavbar.scrolled p {
+    color: #000;
+}
+
+#mainNavbar.scrolled a:hover {
+    color: #000;
+}
+
+.section-margin {
+    margin-top: 150px;
+}
+
+.heading-text {
+    color: #198754;
+}
+
+#section-2 {
+    margin-top: 100px;
+}
+
+#section-2 h1 {
+    color: #198754;
+    margin-bottom: 20px;
+}
+
+.btn {
+    color: #fff;
+    background-color: #198754;
+    display: inline-block;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    color: #198754;
+    background-color: #fff;
+}
+
+#submit-btn {
+background-color: #198754;
+}
+
+#submit-btn:hover {
+    background-color: #fff;
+    color: #198754;
+}
+
+h2 {
+    color: #fff;
+}
+
+h4 {
+    color: #198754;
+}
+
+footer span {
+    color: #198754;
+}
+
+footer h6 {
+    color: #198754;
+}
+
+footer .icons {
+    color: #fff;
+}
+
+/*Styles for animation */
+
+.man_working_out_animation, 
+.class_image,
+.class_image_2,
+.class_image_3,
+.team_members,
+.team_members_2,
+.team_members_3,
+.gallery,
+.gallery_2,
+.gallery_3,
+.gallery_4,
+.gallery_5,
+.gallery_6,
+.contact_us_section {
+    opacity: 0;
+}
+
+.man_working_out_animation.animate__animated, 
+.class_image,
+.class_image_2,
+.class_image_3,
+.team_members,
+.team_members_2,
+.team_members_3,
+.gallery,
+.gallery_2,
+.gallery_3,
+.gallery_4,
+.gallery_5,
+.gallery_6,
+.contact_us_section {
+    opacity: 1;
+}
+
